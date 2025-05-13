@@ -5,7 +5,7 @@ export default function RootLayout({children}){
             <body>
                 <header
                     style={{
-                        backgroundColor: 'blue',
+                        backgroundColor: 'lightblue',
                         color: 'white',
                         padding: '10px',
                         textAlign: 'center'
@@ -13,11 +13,11 @@ export default function RootLayout({children}){
                 >
                     header
                 </header>
-                <main>{children}</main>
+                {children}
                 <footer
                     style={{
-                        backgroundColor: 'blue',
-                        color: 'white',
+                        backgroundColor: 'ghostwhite',
+                        color: 'black',
                         padding: '10px',
                         textAlign: 'center'
                     }}
